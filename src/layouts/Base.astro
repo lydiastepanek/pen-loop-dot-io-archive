@@ -7,6 +7,7 @@ import Footer from "@/partials/Footer.astro";
 import Header from "@/partials/Header.astro";
 import "@/styles/main.scss";
 import { AstroFont } from "astro-font";
+import SubscribeModal from "./SubscribeModal";
 import { ViewTransitions } from "astro:transitions";
 
 // font families
@@ -172,6 +173,7 @@ const { title, meta_title, description, image, noindex, canonical } =
   <body>
     <TwSizeIndicator />
     <Header />
+    <SubscribeModal client:load />
     <main id="main-content" class="min-h-[60vh]">
       <slot />
     </main>
