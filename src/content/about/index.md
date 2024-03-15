@@ -1,24 +1,28 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
+title: "Pen Loop"
 meta_title: "About"
 image: "/images/author.png"
 background_image: "/images/statenferry.jpg"
 draft: false
-
-what_i_do:
-  title: "What I Do"
+  
+products:
+  title: "Projects"
   items:
-  - title: "Content Writing"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
+  - title: "Too Phishy"
+    description: "A Gmail extension that shows you hidden information in the emails you receive, like which country they're sent from and who last edited the attachment files."
+    link: "toophishy.com"
+    url: "https://www.toophishy.com/"
+      
+  - title: "Is This Phishy"
+    description: "A friendly email address that you can forward sketchy emails to (for free), and you’ll get a response telling you whether the email is a phishing scam."
+    link: "isthisphishy.io"
+    url: "https://isthisphishy.io/"
+    
+founder:
+  quotation: "“After building and launching multiple apps, I started Pen Loop to help companies build + design new features, like implementing better data architecture. My specialty is databases, DevOps, and building scalable systems that are meticulously documented, rigorously tested, and seamlessly integrated into a robust CI/CD pipeline. That way, when engineers join or leave your team, there is a sane codebase in place for them to hit the ground running.”"
+  attribution: "- Lydia Stepanek, Founder and Owner"
   
-  - title: "Photography"
-    description: "Aenean maximus urna magna elementum, quis rutrum mi semper non purus eget ipsum venenatis."
-  
-  - title: "Web Research"
-    description: "Aenean maximus urna magna elementum venenatis, quis semper non purus eget ipsum venenatis."
 
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis quis non purus.
-
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis, aenean maximus urna magna elementum.
+Pen Loop is a software development lab based in New York that offers fractional CTO/engineering work on a contract basis to early-stage startups. We can help you solve your engineering problems now before you're ready to find a more full-time replacement.
