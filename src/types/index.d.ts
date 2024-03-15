@@ -8,10 +8,10 @@ export interface TAuthor {
     image: string;
     description: string;
     social: {
-      facebook: string;
+      linkedin: string;
       twitter: string;
-      instagram: string;
-    }
+      github: string;
+    };
   };
   render: () => Promise<{ Content: any }>;
 }
