@@ -4,26 +4,30 @@ description: "this is meta description"
 draft: false
 ---
 
-#### Responsibility of Contributors
+This privacy policy discloses the privacy practices concerning Pen Loop, LLC and its accompanying website PenLoop.io. This privacy policy applies solely to information collected by this application and will cover the following topics:
+1. What specific personal information we collect from you via the application, how we store this information, and who it may potentially be shared with.
+2. Who and how to contact someone to correct any inaccuracies or to request your information be deleted from our systems.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+#### What information does PenLoop.io collect?
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+When using PenLoop.io, there is no advertising and no tracking of user data and activity, with the exception of your email address.
 
-#### Gathering of Personal Information
+When you subscribe to the Pen Loop blog, you agree to the collection of your email address
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+Pen Loop, LLC does not share your email to any third parties unless required by law.
 
-#### Protection of Personal- Information
+#### What information do we share with third parties?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+We will not share your information with any third party outside of our organization. We may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+#### Access to and Control Over Information
 
-#### Privacy Policy Changes
+You may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email at hello@penloop.io:
+1. See what data we have about you, if any.
+2. Change/correct any data we have about you.
+3. Have us delete any data we have about you.
+4. Express any concern you have about our use of your data.
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+#### Updates
+
+Our Privacy Policy may change from time to time and all updates will be posted on this page.
