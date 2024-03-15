@@ -8,7 +8,9 @@
     "logo": "/images/logo.png",
     "logo_width": "50",
     "logo_height": "50",
-    "logo_text": "Pen Loop"
+    "logo_text": "Pen Loop",
+    "source_code": "https://github.com/lydiastepanek/pen-loop-dot-io",
+    "source_code_text": "view source"
   },
 
   "settings": {
