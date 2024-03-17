@@ -11,13 +11,7 @@ draft: false
 
 As a fancy technologist who enjoys looking at celebrity real estate, my three favorite websites are Wired, Architectural Digest, and Curbed, and all of them allow me to read a few articles per month before a paywall goes up. Occasionally, I send article links from these sites to my nearest and dearest, and often get the same response: “I can’t see the article, it’s behind a paywall.”
 
-*You must be joking me!!* I scream internally. *College graduation rates are the highest they’ve ever been and no one knows how to get around a paywall.* (I’m looking at you, mom.)
-
-That was mean, sorry.
-
-It’s unfair of me to complain that people don’t know how to get around paywalls, when paywalls are so annoying (and expensive) in the first place. I find it crazy that wired.com expects my mom to also buy a subscription to wired.com just to read the articles I send her. I get annoyed whenever I think about paywalls, because they're preventing us from sharing information.
-
-On the other hand, I’m a realist and I know that content can’t be free. Someone has to pay for fun articles, whether it’s readers, advertisers, or benevolent billionaires (oh wait those don’t exist). I’ve watched the tug of war between content creators and paywall evaders for the past ~10 years, and I’ve noticed a few interesting things.
+I get annoyed whenever I think about paywalls, because they're preventing us from sharing information. And over the past 10 years, I've noticed paywalls become ubiquitous. Even worse, they're taking a turn towards relying on IP addresses to track users, which makes them even harder to get around.
 
 ## Cookies
 
