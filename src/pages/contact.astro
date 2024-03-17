@@ -4,10 +4,11 @@ import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 import { FaAddressCard, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { Image } from "astro:assets";
 
 const entry = await getEntryBySlug("pages", "contact");
 const { contact_form_action } = config.params;
-const { address, email} = config.contactinfo;
+const { address, email } = config.contactinfo;
 const { title, description, meta_title, image } = entry.data;
 ---
 
@@ -42,8 +43,13 @@ const { title, description, meta_title, image } = entry.data;
           </ul>
         </div>
         <div class="sm:col-7 md:col-8">
-          <div class="calendly-inline-widget" data-url="https://calendly.com/pen-loop" style="min-width:320px;height:700px;"></div>
-          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          <Image
+            src={image}
+            width={320}
+            height={700}
+            alt={title}
+            class="rounded-lg w-full"
+          />
         </div>
       </div>
     </div>
