@@ -1,8 +1,8 @@
 ---
 title: "Pen Loop"
-meta_title: "About"
-image: "/images/author.png"
-background_image: "/images/statenferry.jpg"
+meta_title: "Pen Loop"
+image: "/images/statenferry.jpg"
+author_image: "/images/lydia.png"
 draft: false
   
 products:

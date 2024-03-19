@@ -6,7 +6,9 @@ import { getEntryBySlug } from "astro:content";
 
 const entry = await getEntryBySlug("about", "index");
 const { Content } = await entry.render();
-const { title, description, meta_title, image, background_image, products, founder } = entry.data;
+const { title, description, meta_title, author_image, image, products, founder } = entry.data;
+const posts = await getSinglePage("posts");
+const currentPosts = sortByDate(posts);
 ---
 
 <Base
@@ -19,10 +21,10 @@ const { title, description, meta_title, image, background_image, products, found
     <div class="container">
       <div class="row md:gx-4">
         <div class="sm:col-5 md:col-6">
-          {background_image && (
+          {image && (
             <div class="img-cover mb-8">
               <Image
-                src={background_image}
+                src={image}
                 width={295}
                 height={395}
                 alt={title}
@@ -81,10 +83,10 @@ const { title, description, meta_title, image, background_image, products, found
           </div>
         </div>
         <div class="sm:col-7 md:col-4">
-          {image && (
+          {author_image && (
             <div class="img-cover mb-8">
               <Image
-                src={image}
+                src={author_image}
                 width={195}
                 height={195}
                 alt={title}
