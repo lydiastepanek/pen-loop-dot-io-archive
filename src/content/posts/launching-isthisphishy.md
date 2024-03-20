@@ -14,6 +14,8 @@ For each startup I launch, I’ll be writing a post like this, and explaining ho
 
 So I made a friendly email address to which you can forward sketchy emails (for free) and it tells you whether the email is a phishing scam 🎣📩. Check it out on [Product Hunt](https://www.producthunt.com/products/is-this-phishy).
 
+![](/images/posts/is_this_phishy.png "is this phishy")
+
 ## 🤔 The Problem
 The problem is that every time I get a sketchy email, I never know whether it's a phishing scam. When I google “how to identify a phishing email," hundreds of websites offer one hundred different answers. My cousin works at a big bank, and she told me that bank customers can send suspicious-looking emails to the security team, and they’ll tell you whether it’s a phishing attempt. That’s what made me realize there needs to be a similar service for any person, for any email, anywhere.
 
