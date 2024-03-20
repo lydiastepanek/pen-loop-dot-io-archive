@@ -1,6 +1,5 @@
 ---
 title: "Why haven't password complexity rules gone away yet?"
-description: "I've long suspected that password complexity rules were invented by computers to torture us."
 image: "/images/posts/NIST.jpg"
 date: 2023-07-29T16:56:47+06:00
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: "I built an anti-phishing app and here's what I learned (and why I hate Stripe)"
-description: "meta description"
 image: "/images/posts/irs.png"
 date: 2023-11-11T16:56:47+06:00
 draft: false

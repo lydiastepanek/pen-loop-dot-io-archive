@@ -1,6 +1,5 @@
 ---
 title: "Behind WhatsApp's Slowing Growth"
-description: "Phone messaging is one of the most competitive markets there is. That’s why WhatsApp’s growth for thirteen straight years has been so insane to watch."
 image: "/images/posts/03.jpg"
 date: 2023-03-02T07:00:00Z
 draft: false

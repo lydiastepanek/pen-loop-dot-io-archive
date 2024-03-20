@@ -1,6 +1,5 @@
 ---
 title: "Yes, the FBI can use your Google search records to convict you. And so can Google."
-description: "Until recently, I didn’t realize that police could use my Google search history to convict me of a crime."
 date: 2022-10-03T05:00:00Z
 image: "/images/posts/01.jpg"
 categories: ["cybersecurity"]

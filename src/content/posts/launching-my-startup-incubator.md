@@ -1,6 +1,5 @@
 ---
 title: Launching My Startup Incubator
-description: "meta description"
 date: 2023-07-09T06:00:00+00:00
 image: "/images/posts/my_startup_incubator.png"
 categories: ["art"]

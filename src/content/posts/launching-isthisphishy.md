@@ -1,6 +1,5 @@
 ---
 title: Launching Is This Phishy 🎣📩
-description: "And here we are! One startup done, six weeks passed."
 date: 2023-05-17T17:56:47+06:00
 image: "/images/posts/is_this_phishy.png"
 categories: ["development"]

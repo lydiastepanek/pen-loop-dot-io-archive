@@ -1,6 +1,5 @@
 ---
 title: "I'm building 12 (cybersecurity) startups in 12 months"
-description: "Earlier this year, I felt stuck in my job at a large tech company, so I quit. After eight years as a software engineer, I knew two things: 1) I wanted to work on cybersecurity problems, and 2) I wanted to build apps."
 image: "/images/posts/regina_george.gif"
 date: 2023-05-17T16:56:47+06:00
 draft: false

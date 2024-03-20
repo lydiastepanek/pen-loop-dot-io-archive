@@ -1,6 +1,5 @@
 ---
 title: "A Brief History of Paywalls"
-description: "meta description"
 date: 2023-02-02T07:00:00Z
 image: "/images/posts/02.jpg"
 categories: ["technology"]

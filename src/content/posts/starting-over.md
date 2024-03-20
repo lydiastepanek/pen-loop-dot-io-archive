@@ -1,6 +1,5 @@
 ---
 title: "Starting Over"
-description: "I’ve said it once and I’ll say it again: I’m really proud of my most recent app, Too Phishy."
 image: "/images/posts/sunrise.jpg"
 date: 2024-02-02T16:56:47+06:00
 draft: false
