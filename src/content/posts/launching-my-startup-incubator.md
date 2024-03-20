@@ -2,9 +2,9 @@
 title: Launching My Startup Incubator
 date: 2023-07-09T06:00:00+00:00
 image: "/images/posts/my_startup_incubator.png"
-categories: ["art"]
+categories: ["entrepreneurship"]
 authors: ["Lydia Stepanek"]
-tags: ["diy", "toy"]
+tags: ["google ads", "AI", "startup incubator", "startup"]
 draft: false
 ---
 
@@ -12,15 +12,15 @@ When people hear the word “startup,” they usually think of a software-as-a-s
 
 So this month’s startup – startup #2 of my 12 startups in 12 months – is not a software product: it’s a startup incubator.
 
-When I launched my first startup, isthisphishy.io, last month, reddit commenters almost immediately asked me to turn it into an Outlook plugin, because they wanted a single click solution:
+When I launched my first startup, [isthisphishy.io](https://isthisphishy.io/), last month, reddit commenters almost immediately asked me to turn it into an Outlook plugin, because they wanted a single click solution:
 
-![](/images/posts/reddit_outcry.png "Regina George")
-*Reddit users demand an Outlook plugin.*
+![](/images/posts/reddit_outcry.png "reddit outcry")
+<center>Reddit users demand an Outlook plugin.</center>
 
-The problem was, I didn’t want to build an Outlook plugin. I tried to build one for a few weeks (which I detail below), but I’d used Gmail for the past 17 years and kept second-guessing that people would want to use an Outlook plugin. So I decided to ask the internet for guidance. I ran a marketing experiment of sorts: I made landing pages for all of my startup ideas, added A/B experiments to each landing page (i.e. “Download for Gmail” versus “Download for Outlook”), created Google Ad campaigns, and then waited to see which product idea got the most traction.
+The problem was, I didn’t want to build an Outlook plugin. I tried to build one for a few weeks (which I detail below), but I’d used Gmail for the past 17 years and couldn't believe that people would want to use an Outlook plugin. So I decided to ask the internet for guidance. I ran a marketing experiment of sorts: I made landing pages for all of my startup ideas, added A/B experiments to each landing page (i.e. “Download for Gmail” versus “Download for Outlook”), created Google Ad campaigns, and then waited to see which product idea got the most traction.
 
-![](/images/posts/my_startup_incubator.png "Regina George")
-*Tada! Here are my three marketing landing pages side by side: toophishy.com, spamcallkiller.com, and webpageexplained.com.*
+![](/images/posts/my_startup_incubator.png "my startup incubator")
+<center>Tada! Here are my three marketing landing pages side by side: toophishy.com, spamcallkiller.com, and webpageexplained.com.</center>
 
 Thus, My Startup Incubator was born. It’s a place to test and stack rank nascent startup ideas. I’ll update this table over time with my product ideas, their Google Ads clicks, and their potential for revenue as defined by email waitlist signups:
 
@@ -64,12 +64,12 @@ Thus, My Startup Incubator was born. It’s a place to test and stack rank nasce
 </table>
 
 ## ⏪ Rewind to trying to build an Outlook plugin
-Seven weeks ago, inspired by my Reddit commenters, I started building an Outlook plugin.
+Before I came up with the plan to run a giant Google Ads experiment, I initially did attempt to build an Outlook plugin.
 
-Three weeks ago, deep in the trenches of Outlook plugin development, I woke up in a cold sweat because I was 4 weeks into this project and had very little to show for it. Using Microsoft’s developer ecosystem was slowing me down. Just to get a Microsoft 365 Developer Account had taken me 7 days of back and forth with various Microsoft support teams. And getting a free VS Code developer license had taken another 3 days of back and forth.
+However, three weeks ago, deep in the trenches of Outlook plugin development, I woke up in a cold sweat because I was 4 weeks into this project and had very little to show for it. Using Microsoft’s developer ecosystem was slowing me down. Just to get a Microsoft 365 Developer Account had taken me 7 days of back and forth with various Microsoft support teams. And getting a free VS Code developer license had taken another 3 days of back and forth.
 
-![](/images/posts/taylor-swift-folklore-long-pond-session-folklore.gif "Regina George")
-*This song was actually written by me about developing in the Microsoft developer ecosystem.*
+![](/images/posts/taylor-swift-folklore-long-pond-session-folklore.gif "taylor swift folklore")
+<center>This song was actually written by me about developing in the Microsoft developer ecosystem.</center>
 
 Along with my new stack slowing me down, one question kept echoing in the back of my mind: *Is building a Microsoft Outlook plugin even the right thing to be doing?*
 
@@ -86,17 +86,19 @@ Even though Google Ads is usually something you pay someone online $5k to do for
 
 Also, I figured that using Google Ads might end up saving me a lot of work in the long run. Last month, when I launched isthisphishy.io, I decided to save money by skipping ads entirely. I launched the startup by posting about it on Reddit, Hacker News, Product Hunt, and twenty other sites. Posting on all those websites had been a lot of work. I had to track where all my users were coming from on my own, and retarget my future launch strategy accordingly. *Google Ads will save me time*, I figured. (Hah! Hah! Says future me.)
 
-In the end, Google Ads did not save me time (see ad bans mentioned below). But I learned a lot, at least.
+In the end, Google Ads did not save me time (*cough* ad bans). But I learned a lot, at least.
+
+![](/images/posts/banned.png "banned")
+<center>I got a lot of these Google Ads suspension notices when I first ran my ads. Quite a headache.</center>
 
 So here we are. And the experiment has worked: TooPhishy for Gmail is the idea that has gotten the most clicks so far, so expect to see a blog post on that startup next!
 
 ## 💸 My Startup Incubator cost me $855.77/month to build
 Before I ran my first Google Ads campaign, I knew that I was willing to spend a LOT of money on Google Ads.
 
-![](/images/posts/toophishy_youtube_ad_1.mov)
-*Google Ads, though expensive, does have some nice features. Its AI algorithm created polished Youtube ads for no additional cost.*
+[![](https://markdown-videos-api.jorgenkh.no/youtube/MJ4MANlw0xA)](https://www.youtube.com/watch?v=MJ4MANlw0xA)
+<center>Google Ads, though expensive, does have some nice features. Its AI algorithm created polished Youtube ads for no additional cost.</center>
 
-[![](https://markdown-videos-api.jorgenkh.no/youtube/dQw4w9WgXcQ)](https://youtu.be/dQw4w9WgXcQ)
 
 With that in mind, I give you my total expenses to build and maintain My Startup Incubator:
 
@@ -118,18 +120,18 @@ Fixed expenses:
 Total: $855.77/month
 
 ## What I learned about Google Ads
-In a nutshell: AI has not yet taken over the world. Setting up a Google Ads campaign is the most manual process in the world. When I launched my bare minimum campaigns using the default settings, I got absolutely no ad clicks. And yes, I even used the Performance Max campaign type which claims to use AI. It was only after I manually defined the search terms I wanted my campaign to be shown with (e.g. “spam call”) that I finally started seeing some ad clicks and conversions. Considering that spamcallkiller.com contains the word “spam call” in the name, it doesn’t seem too crazy to think that some search terms should have been attached to my campaign by default.
+In a nutshell: AI has not yet taken over the world. Setting up a Google Ads campaign is the most manual process in the world. When I launched my bare minimum campaigns using the default settings, I got absolutely no ad clicks. And yes, I even used the [Performance Max](https://support.google.com/google-ads/answer/10724817?hl=en&#zippy=%2Chow-performance-max-works-with-search-campaigns-or-keywords-in-your-account) campaign type which claims to use AI. It was only after I manually defined the search terms I wanted my campaign to be shown with (e.g. “spam call”) that I finally started seeing some ad clicks and conversions. Considering that spamcallkiller.com contains the word “spam call” in the name, it doesn’t seem too crazy to think that some search terms should have been attached to my campaign by default.
 
 I also spent a godforsaken amount of money on Google Ads (see above). Google Ads likes to proudly claim “you only pay for the clicks you get,” but as someone who got very few clicks, I quickly learned that Google Ads has a minimum spend they’ll charge you just for impressions. So they put my ads on a bunch of websites that no one clicked and charged me $40/day for it. Ugh.
 
 ALSO, it’s really hard to get people in the United States and Canada to click your ads. When I set up my campaigns, this was the default audience Google Ads chose for me. Over time, since I was getting so few ad clicks, I expanded the audience for my toophishy.com campaign to all first world countries, and got way more clicks, especially in India, Kazakhstan, Costa Rica and Argentina. I guess not a lot of companies pay for ads in those countries, so there's less competition for clicks? Who knows.
 
-And oh yeah, Google banned all of my ads multiple times. Reddit tells me that ad bans happen to a lot of people. And when I set up appointments with Google Ads' support team, thinking that they’d actually show up given that I spent more than $500/month on their product, both support agents ghosted me. (Which has become common since the pandemic, I hear.)
+And oh yeah, Google banned all of my ads multiple times. Reddit tells me that ad bans happen to a lot of people. And when I set up appointments with Google Ads' support team, thinking that they’d actually show up given that I spent more than $500/month on their product, both support agents ghosted me. (Which has become [common](https://www.reddit.com/r/PPC/comments/11l2gvw/is_google_ads_support_gone) since the pandemic, I hear.)
 
 After speaking with my friend Ron, a marketing executive, I realized that these bans likely happened because my landing pages had no organic online reputation (e.g. links from other websites), and basically just collected email addresses, so it's not shocking that Google thought they were selling non-legitimate products. I've also learned recently that Facebook Ads, since it doesn't track websites' reputations, is much less likely to ban ads. (Good to know for next time!)
 
-![](/images/posts/banned.png "Regina George")
-*I got a lot of these Google Ads suspension notices when I first ran my ads. Quite a headache.*
+[![](https://markdown-videos-api.jorgenkh.no/youtube/eSkHo1DYdJo)](https://www.youtube.com/watch?v=eSkHo1DYdJo)
+<center>And now a mobile video ad! (Have you signed up for my fake waitlist yet?)</center>
 
 ## Going Forward
 I hope that by being transparent about my first experiment running Google Ads campaigns, it’ll encourage readers to share your tips and help me fill in any gaps in my knowledge.

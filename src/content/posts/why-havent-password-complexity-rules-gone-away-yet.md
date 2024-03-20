@@ -4,8 +4,8 @@ image: "/images/posts/NIST.jpg"
 date: 2023-07-29T16:56:47+06:00
 draft: false
 authors: ["Lydia Stepanek"]
-tags: ["Food", "Gold"]
-categories: ["Food"]
+tags: ["NIST", "password complexity", "cybersecurity"]
+categories: ["cybersecurity"]
 ---
 
 I've long suspected that password complexity rules were invented by computers to torture us. So I investigated: does adding special characters make passwords safer? And if not, why do so many systems require it?
@@ -20,21 +20,21 @@ In theory, a hacker can write an automated program that will guess millions of p
 But ever since the early 2010s, when reCAPTCHA (and other innovations like rate limiting and multi-factor authentication) spread onto almost every web login imaginable, password-guessing attacks became impossible, because hackers would quickly run into a login attempt wall. For a long time I’ve wondered why password complexity rules still exist nowadays [1]. So I decided to investigate.
 
 ## Who came up with these password rules anyway?
-If you’ve ever spent time in Boulder, CO, with a dad who admires government agencies that set the time for the rest of the United States (just me?) then you should be familiar with the National Institute of Standards and Technology (NIST). The basis for NIST’s existence goes way back to 1781, when the Articles of Confederation determined that Congress had the power to determine standard weights and measurements. Since then, NIST has been responsible for setting measurements like the exact standard of temperature (0 °C = 32 °F).
+If you’ve ever spent time in Boulder, CO, with a dad who admires government agencies that set the time for the rest of the United States (just me?) then you should be familiar with the National Institute of Standards and Technology (NIST). The basis for NIST’s existence goes way back to 1781, when the Articles of Confederation determined that Congress had the power to determine standard weights and measurements. Since then, NIST has been responsible for setting measurements like the [exact](https://en.wikipedia.org/wiki/Standard_temperature_and_pressure) standard of temperature (0 °C = 32 °F).
 
-![](/images/posts/NIST.jpg "Regina George")
-*Up until 2014, all the clocks in the United States synchronized their time to NIST’s atomic clock in Boulder.*
+![](/images/posts/NIST.jpg "NIST atomic clock")
+<center>Up until 2014, all the clocks in the United States synchronized their time to NIST’s atomic clock in Boulder.</center>
 
 In addition to measurements, NIST is also in charge of password guidelines for all U.S. government agencies. (Yes, I also found it astonishing that a government agency established in the 1700s now decides IT practices for the entire country.) All organizations that work with the federal government are required to adhere to NIST's guidelines in order to be considered for government contracts. NIST's influence has spread into the private sector too, where its guidelines are considered the gold standard by most IT practitioners.
 
-NIST manager Bill Burr wrote SP 800-63: Electronic Authentication Guideline, the agency’s first authentication guidelines, in 2004, introducing password complexity rules to the world. Burr’s guiding theory behind complexity rules? If a password is easy for a user to remember, then it’s also easy for a hacker to guess:
+NIST manager Bill Burr wrote [SP 800-63](https://csrc.nist.gov/pubs/sp/800/63/upd1/final), the agency’s first authentication guidelines, in 2004, introducing password complexity rules to the world. Burr’s guiding theory behind complexity rules? If a password is easy for a user to remember, then it’s also easy for a hacker to guess:
 
 > Passwords chosen by users probably roughly reflect the patterns and character frequency distributions of ordinary English text, and are chosen by users so that they can remember them. Experience teaches us that many users, left to choose their own passwords, will choose passwords that are easily guessed…
 Composition rules… can eliminate many obvious choices and therefore we believe that they generally improve the “practical entropy” of passwords.
 
-The idea follows a certain kind of logic…albeit one backed by zero evidence. “Much of what I did I now regret,” Burr told the WSJ in 2017. Burr hadn’t had time to test any of his theories on actual passwords, and administrators at NIST had refused his request to look at the actual passwords on their network for empirical purposes. In fact, “they were appalled [he] even asked.”
+The idea follows a certain kind of logic…albeit one backed by zero evidence. “Much of what I did I now regret,” Burr [told](https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118) the WSJ in 2017. Burr hadn’t had time to test any of his theories on actual passwords, and administrators at NIST had refused his request to look at the actual passwords on their network for empirical purposes. In fact, “they were appalled [he] even asked.”
 
-In the absence of any other guidelines to follow, government agencies and private companies alike followed Burr's advice. Even today, 45% of the 120 most popular websites still require complex passwords.
+In the absence of any other guidelines to follow, government agencies and private companies alike followed Burr's advice. Even today, [45%](https://www.usenix.org/conference/soups2022/presentation/lee) of the 120 most popular websites still require complex passwords.
 
 Empirical evidence, finally available in 2017, showed that complex character rules make passwords no less easy to guess. Per NIST document SP 800-63-3 (first published in 2017):
 
@@ -42,8 +42,7 @@ Empirical evidence, finally available in 2017, showed that complex character rul
  
 So adding a 1 or a ! to the end of your password isn’t going to make your password that much harder to guess. What will? It turns out that it’s far more effective to make passwords long than to make them complex:
 
-![](/images/posts/xkcd.png "Regina George")
-Source: xkcd
+![](/images/posts/xkcd.png "xkcd")
 
 An 11-character password containing complex characters would take a computer 3 days to guess; a 25-character password containing no complex characters would take 550 years to guess. In a nutshell: long and simple passwords are better than short and complex passwords.
 
@@ -62,16 +61,18 @@ To make it easier for my future self to track these guideline changes over time 
 | [SP 800-63-3](https://csrc.nist.gov/publications/detail/sp/800-63/3/archive/2017-06-22) |June 2017 (updated and re-published in March 2020)|**1.) Passwords should be made up of random words, and not be required to contain a mix of characters.** 2.) Organizations should encourage users to change their password if they suspect the password has been compromised. 3.) Login attempts should be subjected to rate-limiting.|
 | [SP 800-63-4](https://pages.nist.gov/800-63-4/) |2023|Still seeking comments. Draft mode.|
 
-![](/images/posts/one_direction.png "Regina George")
-*NIST rules requiring 90-day resets and complex characters: not cool anymore. One Direction: still cool.*
+Reassuringly, NIST’s most useless password rules – like the 90-day reset rule and the password complexity rule, both written in 2004 – were out of fashion by 2017. (Unlike One Direction.)
 
-On the other hand, guidelines that make intuitive sense, like MFA, which was first recommended by NIST in 2004, have stuck around for ages. Some types of MFA, like text-message codes, have turned out to be susceptible to various attacks like SIM swapping. But others, like MFA that relies on biometric data or physical security keys (both mentioned in NIST’s 2004 guidelines), have proven quite safe over time.
+On the other hand, guidelines that make intuitive sense, like MFA, which was first recommended by NIST in 2004, have stuck around for ages. Some types of MFA, like text-message codes, have turned out to be [susceptible](https://www.wsj.com/articles/you-need-two-factor-authentication-but-some-types-are-safer-than-others-11648930708) to various attacks like SIM swapping. But others, like MFA that relies on biometric data or physical security keys (both mentioned in NIST’s 2004 guidelines), have proven quite safe over time.
+
+![](/images/posts/one_direction.png "one direction")
+<center>NIST rules requiring 90-day resets and complex characters: not cool anymore. One Direction: still cool.</center>
 
 ## Do companies keep up with these rule changes?
 NIST’s tendency to change rules over time introduces an obvious problem: the rest of the world has trouble keeping up. ADP, the global HR company that managed payroll for my former employer, made me reset my password TEN times in four years.
 
-![](/images/posts/adp.png "Regina George")
-*My password to this website is “f*%!_ADP”.*
+![](/images/posts/adp.png "password")
+<center>My password to this website is “f*%!_ADP”.</center>
 
 So I asked my friend Reba, who works in IT for the government, why so many websites remain out of compliance with NIST guidelines. She explained that many government agencies – and non-government agencies – don't have the time or money to follow NIST guidelines. “It’s a matter of not having enough budget to rebuild an agency's entire authentication system,” she says.
 

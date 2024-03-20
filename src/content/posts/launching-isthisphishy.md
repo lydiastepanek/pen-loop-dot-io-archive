@@ -2,39 +2,38 @@
 title: Launching Is This Phishy 🎣📩
 date: 2023-05-17T17:56:47+06:00
 image: "/images/posts/is_this_phishy.png"
-categories: ["development"]
+categories: ["entrepreneurship"]
 authors: ["Lydia Stepanek"]
-tags: ["diy", "toy"]
+tags: ["phishing", "free", "email server"]
 draft: false
 ---
 
 And here we are! One startup done, six weeks passed.
 
-For each startup I launch, I’ll be writing a post like this, and explaining how it achieves my broader goal this year to make cybersecurity products more accessible to a wider audience. Since this was my first startup, I wanted to make something that would be useful for everyone from your kid brother to your grandma: an elegant email server that can identify phishing emails.
+For each startup I launch, I’ll be writing a post like this, and explaining how it achieves my broader [goal](/im-building-12-cybersecurity-startups-in-12-months) this year to make cybersecurity products more accessible to a wider audience. Since this was my first startup, I wanted to make something that would be useful for everyone from your kid brother to your grandma: an elegant email server that can identify phishing emails.
 
-![](/images/posts/is_this_phishy.png "Regina George")
-*I made a friendly email address to which you can forward sketchy emails (for free) and it tells you whether the email is a phishing scam 🎣📩. Check it out on Product Hunt.*
+So I made a friendly email address to which you can forward sketchy emails (for free) and it tells you whether the email is a phishing scam 🎣📩. Check it out on [Product Hunt](https://www.producthunt.com/products/is-this-phishy).
 
 ## 🤔 The Problem
 The problem is that every time I get a sketchy email, I never know whether it's a phishing scam. When I google “how to identify a phishing email," hundreds of websites offer one hundred different answers. My cousin works at a big bank, and she told me that bank customers can send suspicious-looking emails to the security team, and they’ll tell you whether it’s a phishing attempt. That’s what made me realize there needs to be a similar service for any person, for any email, anywhere.
 
 ## 🛠️ Solution
-Say hello to help@isthisphishy.io, a friendly email address that you can forward any and all emails to (for free), and you’ll get a response telling you why or why not the email is a phishing scam. 🎣📩 Check it out at isthisphishy.io.
+Say hello to help@isthisphishy.io, a friendly email address that you can forward any and all emails to (for free), and you’ll get a response telling you why or why not the email is a phishing scam. 🎣📩 Check it out at [isthisphishy.io](https://isthisphishy.io/).
 
 ## 🚨 The Launch
-One month after its launch, Is This Phishy was featured on prominent blogs like Insanely Useful Websites, the OneLaunch blog, the Mike Taylor blog, and Beta List. It also reached 403 monthly active users in its first month.
-
 Since this was my first launch ever, I followed the advice of Read Make and took a "spray and pray" approach, posting about my launch everywhere from Twitter and Reddit to Indie Hackers and Elpha.
 
-The single biggest social media response came from my post to Reddit's r/msp (managed service provider) community, which garnered 23,200 impressions and a big uptick in users. Before posting, I didn't realize that the group had 148k members worldwide; I simply wanted good feedback on my landing page. I started laughing incredulously when I noticed that the post had 4,000 impressions only a few minutes after I'd posted it. In the end, I got 39 comments from people who cumulatively had decades of IT experience. (I know this because I DM'd some of them to get feedback on future product ideas.) Many commenters, unsurprisingly, wanted more security transparency before they used my service. This feedback inspired me to add a security notification to the top every email:
+One month after its launch, Is This Phishy was featured on prominent blogs like [Insanely Useful Websites](https://newsletter.insanelyusefulwebsites.com/p/iuw-78), the [OneLaunch blog](https://blog.onelaunch.com/new-email-scams-to-watch-for), the [Mike Taylor blog](https://mike-taylor.org/blog-2), and [Beta List](https://betalist.com/startups/is-this-phishy). It also reached 403 monthly active users in its first month.
 
-![](/images/posts/reddit.png "Regina George")
+The single biggest social media response came from my [post](https://www.reddit.com/r/msp/comments/13oy0kr/roast_my_landing_page) to Reddit's r/msp (managed service provider) community, which garnered 23,200 impressions and a big uptick in users. Before posting, I didn't realize that the group had 148k members worldwide; I simply wanted good feedback on my landing page. I started laughing incredulously when I noticed that the post had 4,000 impressions only a few minutes after I'd posted it. In the end, I got 39 comments from people who cumulatively had decades of IT experience. (I know this because I DM'd some of them to get feedback on future product ideas.) Many commenters, unsurprisingly, wanted more security transparency before they used my service. This feedback inspired me to add a security notification to the top every email:
 
-Additionally, my post to LinkedIn fetched 3,422 impressions and 96 likes, by far the most "likes" I got anywhere. (By comparison, my post to Hacker News got only 4 likes.) I was surprised and pleased by the number of friends and former coworkers who saw the post on LinkedIn and reached out to say they'd shared Is This Phishy with their IT team. Some even sent me the feedback from their IT teams which was especially helpful.
+![](/images/posts/reddit.png "reddit")
+
+Additionally, my [post](https://www.linkedin.com/feed/update/urn:li:activity:7064628717188210688) to LinkedIn fetched 3,422 impressions and 96 likes, by far the most "likes" I got anywhere. (By comparison, my [post](https://news.ycombinator.com/item?id=35976876) to Hacker News got only 4 likes.) I was surprised and pleased by the number of friends and former coworkers who saw the post on LinkedIn and reached out to say they'd shared Is This Phishy with their IT team. Some even sent me the feedback from their IT teams which was especially helpful.
 
 In the first week of launch, Is This Phishy made it to #45 on Product Hunt (out of 144 total product launches that day), and over 400 people viewed it:
 
-![](/images/posts/analytics.png "Regina George")
+![](/images/posts/analytics.png "analytics traffic")
 
 ## 💰 Biggest win: IsThisPhishy.io costs only $26.66/month to build and maintain
 I’m most comfortable with AWS, so I decided to use AWS for this project. Whenever I researched email server solutions, AWS was always much cheaper than competitors like Mailgun: AWS SES only costs $0.10 cents per 1,000 emails sent, while Mailgun costs eight times more. This means that my costs for running isthisphishy.io are REALLY low, so I can offer it for free.
@@ -69,9 +68,9 @@ These are the things I did well productivity-wise that I will continue:
 Things I could do better next time:
 
 * **Get to my coworking space earlier**: I now realize it takes me about 1.5 hours to actually start coding after I sit down at my computer – after all, there’s Architectural Digest to read, and Harry Styles’ love life to track. It takes a really long time to warm up my brain. I need to just accept this, plan for it, and sit at my desk sooner in the day.
-* **Go straight to the docs**: Instead of wasting time watching tutorials on youtube, I wish I’d gone straight to the AWS docs sooner. This was the main AWS tutorial I used for building the MVP of my email server, and I wish I’d started with it. There’s a lot of bad training content on the internet, and I need to ensure I’m using the most trusted online sources. (Yes, this is a jab at ChatGPT.)
+* **Go straight to the docs**: Instead of wasting time watching tutorials on youtube, I wish I’d gone straight to the AWS docs sooner. [This](https://aws.amazon.com/blogs/messaging-and-targeting/forward-incoming-email-to-an-external-destination) was the main AWS tutorial I used for building the MVP of my email server, and I wish I’d started with it. There’s a lot of bad training content on the internet, and I need to ensure I’m using the most trusted online sources. (Yes, this is a jab at ChatGPT.)
 
 ## Biggest technical learning: Parsing forwarded emails is surprisingly hard 📨
-I built my MVP in Python first, only to realize three weeks in that Python does not have any libraries to parse forwarded emails. Different email clients – Gmail, Yahoo Mail, Outlook, etc. – all format forwarded emails in different ways, so it’s actually really complicated to parse something as simple as the “from” sender on a forwarded email. And I didn't want to build a parsing library from scratch in Python – I only had one month! The only code I could find online that could parse forwarded emails for all email clients was written in Javascript: email-forward-parser, which is an amazing library from Crisp. This meant that halfway into this project after I’d built my MVP in Python, I had to rewrite everything in Javascript, which I hadn't coded in since 2019.
+I built my MVP in Python first, only to realize three weeks in that Python does not have any libraries to parse forwarded emails. Different email clients – Gmail, Yahoo Mail, Outlook, etc. – all format forwarded emails in different ways, so it’s actually really complicated to parse something as simple as the “from” sender on a forwarded email. And I didn't want to build a parsing library from scratch in Python – I only had one month! The only code I could find online that could parse forwarded emails for all email clients was written in Javascript: Crisp's [email-forward-parser](https://github.com/crisp-oss/email-forward-parser) library. This meant that halfway into this project after I’d built my MVP in Python, I had to rewrite everything in Javascript, which I hadn't coded in since 2019.
 
 The silver lining: being an independent developer allows me to choose my own technical stack, which I’ve never been able to do before. I was able to switch to JavaScript on a dime to best serve my development needs, which was very liberating!

@@ -4,7 +4,7 @@ date: 2022-10-03T05:00:00Z
 image: "/images/posts/01.jpg"
 categories: ["cybersecurity"]
 authors: ["Lydia Stepanek"]
-tags: ["cybersecurity"]
+tags: ["Google", "email records", "search records", "FBI", "fourth amendment"]
 draft: false
 ---
 
