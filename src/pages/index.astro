@@ -3,6 +3,9 @@ import { Image } from "astro:assets";
 import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
+import SimilarPosts from "../layouts/components/SimilarPosts.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { sortByDate } from "@/lib/utils/sortFunctions";
 
 const entry = await getEntryBySlug("about", "index");
 const { Content } = await entry.render();
@@ -38,7 +41,7 @@ const currentPosts = sortByDate(posts);
           <div class="content">
             <Content />
           </div>
-          <a href="/contact" class="btn btn-primary text-white py-2"
+          <a href="/contact" class="btn btn-primary text-white py-2 mb-4"
           >Get In Touch</a
           >
         </div>
@@ -46,7 +49,7 @@ const currentPosts = sortByDate(posts);
     </div>
   </section>
 
-  <section class="section pt-0">
+  <section class="section">
     <div class="container">
       <h3 class="page-heading mb-20">{products.title}</h3>
       <div class="row flex justify-around items-center gy-4 text-center">
@@ -78,6 +81,9 @@ const currentPosts = sortByDate(posts);
           <div class="content">
             <p>{founder.quotation}</p>
             <p class="font-medium text-gray-300">{founder.attribution}</p>
+            <a href="/contact" class="btn btn-primary text-white py-2 mb-4"
+            >Get In Touch</a
+            >
           </div>
         </div>
         <div class="sm:col-7 md:col-4">
@@ -93,6 +99,12 @@ const currentPosts = sortByDate(posts);
             </div>)}
         </div>
       </div>
+    </div>
+  </section>
+  <section class="section mb-20">
+    <div class="container">
+      <h3 class="page-heading mb-20">Recent Posts</h3>
+      <SimilarPosts posts={currentPosts.slice(0, 3)} />
     </div>
   </section>
 </Base>
