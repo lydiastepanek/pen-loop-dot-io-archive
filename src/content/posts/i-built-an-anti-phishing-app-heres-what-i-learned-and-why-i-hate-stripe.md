@@ -8,16 +8,14 @@ tags: ["too phishy", "anti-phishing", "Google Workspace addon"]
 categories: ["entrepreneurship"]
 ---
 
-*Note: After reading this post, uou may want to read my follow up to this blog post, Starting Over, which explains why I've open sourced Too Phishy and made it free.*
+*Note: After reading this post, you may want to read my follow up to this blog post, [Starting Over](/starting-over), which explains why I've open sourced Too Phishy and made it free.*
 
-To reduce procrastination and become faster at launching my projects, I’ve set the goal to launch 12 cybersecurity startups in 12 months. A few weeks after every launch, I do a debriefing on what I learned. Yesterday, I launched my third project, Too Phishy, an anti-phishing Gmail add-on.
+To reduce procrastination and become faster at launching my projects, I’ve set the [goal](/im-building-12-cybersecurity-startups-in-12-months) to launch 12 cybersecurity startups in 12 months. A few weeks after every launch, I do a debriefing on what I learned. Yesterday, I launched my third project, [Too Phishy](https://workspace.google.com/marketplace/app/too_phishy/802749066565), an anti-phishing Gmail add-on.
 
 I created Too Phishy to improve my ability to detect cleverly made phishing scams. I needed a tool — one that was easy and intuitive — to help when my better judgement wasn't enough.
 
-I expected to build this project in two months. In the end, it took four months. Here’s what happened.
-
 ## 🌪️ Wait, didn’t I already launch a product called Is This Phishy? What happened to that?
-Despite boasting 400 monthly active users in its first two months, my first project, Is This Phishy, saw its active user base drop down to one by its third month. (Hi dad!)
+Despite boasting 400 monthly active users in its first two months, my first project, [Is This Phishy](https://isthisphishy.io/), saw its active user base drop down to one by its third month. (Hi dad!)
 
 ![](/images/posts/funeral.jpg "funeral")
 <div class="image-caption">Please bow your heads for a moment of silence.</div>
@@ -53,7 +51,7 @@ Next: *Is there an easy way to set up a Stripe payments site?* Answer: “Why ye
 
 (I ended up building a Stripe payments React app from scratch and hosting it in Amazon ECS. And it still costs me $76.44/month to run, which was more than I anticipated spending [2]. So maybe ChatGPT had the last laugh here.)
 
-Worst of all was asking ChatGPT for help writing a Gmail add-on because – surprise! – there’s hardly any information online about building Gmail add-ons. Asking ChatGPT questions like What does a google workspace addon mainfest file look like for Gmail? yielded completely nonsense answers. Without the help of cutting-edge AI, I used the second-best scientific approach known to man – that is, typing hundreds of random lines of code until one of them worked – which eventually yielded results (and a lot of swear words on my end).
+Worst of all was asking ChatGPT for help writing a Gmail add-on because – surprise! – there’s hardly any information online about building Gmail add-ons. Asking ChatGPT questions like *What does a google workspace addon mainfest file look like for Gmail?* yielded completely nonsense answers. Without the help of cutting-edge AI, I used the second-best scientific approach known to man – that is, typing hundreds of random lines of code until one of them worked – which eventually yielded results (and a lot of swear words on my end).
 
 ## Also, I hate Stripe's documentation
 Whenever I interview with a startup (for when I imminently run out of savings, or until my secret trust fund finally materializes…), they say “we’re the Stripe of home delivery” or “we’re the Stripe of dog food.”  In other words, Stripe is the gold standard of startups.
@@ -67,16 +65,16 @@ However, once you start building a website that uses Stripe payments, you quickl
 <div class="image-caption">One week and fourteen gray hairs later, tada!</div>  
 
 ## Google Marketplace's App Approval Process
-I knew that the app approval process for Apple can take months (although they claim it’s now down to a day). But I’d never developed a Google add-on before, so I was curious how long it would take to get my app reviewed and approved by Google.
+I know that the app approval process for Apple can take months (although they claim it’s now down to a day). But I’d never developed a Google add-on before, so I was curious how long it would take to get my app reviewed and approved by Google.
 
 In the end, Google rejected my add-on six times before finally approving it 27 days later.
 
 ## 🏷️ Why I’m Charging $6/month 
 As I ate microwaveable quinoa for the seventh time this week, I made the decision to price my app at $6/month.
 
-At first, I had decided to price Too Phishy at a low price point in order to attract as many users as possible, so that I could build the AI model of my dreams. $1/month seemed reasonable to me, and would make Too Phishy a steal when compared to Gmail’s other add-on offerings, which go for $3 to $10 a pop per month. But then I read this advice from Marc Andreessen:
+At first, I had decided to price Too Phishy at a low price point in order to attract as many users as possible, so that I could build the AI model of my dreams. $1/month seemed reasonable to me, and would make Too Phishy a steal when compared to Gmail’s other add-on offerings, which go for [$3](https://workspace.google.com/marketplace/app/gqueues_for_google_workspace/672546833824) to [$10](https://workspace.google.com/marketplace/app/social_insights_for_gmail/398227766523) a pop per month. But then I read [this](https://www.mimiran.com/raise-prices-marc-andressen-says-you-should) advice from Marc Andreessen:
 
-> “The number one thing – just the theme and we see it everywhere – the number one theme with our companies have when they get really struggling is they are not charging enough for their product.”
+> The number one thing – just the theme and we see it everywhere – the number one theme with our companies have when they get really struggling is they are not charging enough for their product.
 
 ![](/images/posts/raise_prices.png "raise prices")
 <div class="image-caption">I listened, Marc.</div>
@@ -87,6 +85,6 @@ I’d like to thank Aixsha, my college suitemate, who was generous enough to sha
 I’d also like to thank my friends Mona and David who also contributed their phishing emails.
 
 ## 🥿 Footnotes
-[1] There are some older, oft-researched phishing email corpuses – like this 2004 Enron email corpus and this 1998-2007 "Nigerian” fraud email corpus – but they’re pretty out of date. Since phishing emails are changing from day to day, these corpuses from the mid-2000s aren’t very useful.
+[1] There are some older, oft-researched phishing email corpuses – like [this](https://www.cs.cmu.edu/~enron/) 2004 Enron email corpus and [this](https://www.kaggle.com/datasets/rtatman/fraudulent-email-corpus) 1998-2007 "Nigerian” fraud email corpus – but they’re pretty out of date. Since phishing emails are changing from day to day, these corpuses from the mid-2000s aren’t very useful.
 
-[2] Funnily enough, I just listened to an interview with the founder of Wordpress and learned that it cost him $99/month to run the original Wordpress server back in 2005. 18 years later, my costs are pretty much the same for compute power. (The more we evolve, the more we stay the same, yadda yadda…)
+[2] Funnily enough, I just listened to an [interview](https://ma.tt/2022/03/guy-razs-how-i-built-this) with the founder of Wordpress and learned that it cost him $99/month to run the original Wordpress server back in 2005. 18 years later, my costs are pretty much the same for compute power. (The more we evolve, the more we stay the same, yadda yadda…)
