@@ -16,21 +16,21 @@ In an [effort](/im-building-12-cybersecurity-startups-in-12-months) to build one
 A few weeks ago, [Too Phishy](https://workspace.google.com/marketplace/app/too_phishy/802749066565) launched on Product Hunt. In its first few days, it got no page clicks. No subscribers. No comments. No reviews on Product Hunt (except, as usual, from my dad). And no downloads in Google Workspace. Admittedly, with my marketing budget of $0, I had told no one about this app, and Product Hunt doesn’t market your apps for you. But it was disheartening nonetheless.
 
 ![](/images/posts/from_dad.png "from dad")
-<center>From dad</center>
+<div class="image-caption">From dad</div>
 
 I spent the next three weeks reaching out to bloggers, trying to get signups. I even posted to 19 reddit communities, earning me more than a thousand website visits to toophishy.com. Along the way, I managed to get 12 free trial users -- nothing to scoff at, but not enough to make a living off of.
 
 Looking more critically, I had to wonder why my website had such a low ratio of website visits to app signups. My posts on reddit were getting real attention, but somehow my app did not address enough of a real problem to get people to sign up.
 
 ![](/images/posts/422_views.png "422 views")
-<center>I got 472 page views from this reddit post alone.</center>
+<div class="image-caption">I got 472 page views from this reddit post alone.</div>
 
 By the end of December, six of those trial users churned, leaving 6 who became paid users. I had to accept two things: I had 50% turnover, and I gained 1 user for every 3 days of marketing. Ultimately, I wondered if the time investment per user acquisition was sustainable. It was time to take a pause and figure out what to do.
 
 First, in an effort to remove the most obvious friction point of user acquisition – cost – I decided to make Too Phishy free. I sent the following email to my users:
 
 ![](/images/posts/email.png "email")
-<center>This was one of the hardest emails I’ve ever written. Goodbye, subscription income. Hello, more work.</center>
+<div class="image-caption">This was one of the hardest emails I’ve ever written. Goodbye, subscription income. Hello, more work.</div>
 
 Then I emailed 93 cybersecurity practitioners across the world, telling them about my [5-star](https://workspace.google.com/marketplace/app/too_phishy/802749066565) free anti-phishing app and asking if I could speak to them for advice. (I got 5 meetings out of this outreach, but most practitioners I spoke to already had an anti-phishing tool in place and preferred to spend their budget on post-breach response rather than pre-breach defense.)
 
@@ -104,7 +104,7 @@ To figure out what the world wants, I realized I should probably do this thing c
 My search revealed that only 50 people in the world search for the term "phishing gmail" every month. In comparison, 500 people search for “free parking app,” which explains why there are so many successful parking apps.
 
 ![](/images/posts/keyword_search.png "keyword search")
-<center>An anti-phishing add-on for Gmail was not what the world was searching for.</center>
+<div class="image-caption">An anti-phishing add-on for Gmail was not what the world was searching for.</div>
 
 Again, many people probably do want a phishing plugin, but it’s useful for me to quantify how many people want a phishing plugin versus a free parking app, so that I can spend my time most productively.
 
@@ -112,7 +112,7 @@ Again, many people probably do want a phishing plugin, but it’s useful for me 
 Right after my Product Hunt launch, I called up my friend Bosen, an indie game developer, and cried (metaphorically) about how few paid users I had. “Of course you’re not making any money,” he told me, “You launched on Product Hunt!” He pointed out that Product Hunt apps rarely charge money, whereas iPhone and Android apps can charge money and still go viral. The iPhone Store, the Google Play Store, and Steam platforms all market your apps for you by sending out marketing emails and making your app searchable. (They want their 30% cut after all.)
 
 ![](/images/posts/steam.png "steam")
-<center>Steam even has a revenue calculator that helps you estimate how much a game makes. A simple game priced at $14.99 with 1,540 reviews can make $245k in one year. Product Hunt, tellingly, does not provide a revenue calculator tool, since most of the apps that it launches are free.</center>
+<div class="image-caption">Steam even has a revenue calculator that helps you estimate how much a game makes. A simple game priced at $14.99 with 1,540 reviews can make $245k in one year. Product Hunt, tellingly, does not provide a revenue calculator tool, since most of the apps that it launches are free.</div>
 
 ## Make a free tier if you want to go viral
 I charged $6/month for Too Phishy because I was following the advice of Marc Andreessen, who said that startup founders always charge too little for their products. And as mentioned above, you can make real money selling apps. But free versions are what go viral. Because, shocker: a small team can’t afford a full time sales team, let alone one sales person, so Product Hunt and Twitter clicks are their only way to market an app. For example, Instagram and Calendly, both launched by tiny teams, started as free apps.

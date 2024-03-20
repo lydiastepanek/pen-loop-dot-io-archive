@@ -34,7 +34,7 @@ Starting in 2009 with iMessage, messaging apps started to surge in popularity be
 At the time of the Facebook acquisition, though, WhatsApp was much more than just a tool to avoid SMS fees. It was the only messaging app in the market that offered a truly global product, running on all major mobile operating systems from its inception: iPhones, Androids, Blackberrys, as well as the feature phones that are popular in developing countries. (This part will become important later.)
 
 ![](/images/posts/03.jpg "feature phone")
-<center>If you’re wondering what a feature phone is, imagine a 2000s-era Nokia or Razr phone that uses WiFi. (In other words, a smartphone with a smaller, cheaper operating system than an iPhone or Android phone.)</center>
+<div class="image-caption">If you’re wondering what a feature phone is, imagine a 2000s-era Nokia or Razr phone that uses WiFi. (In other words, a smartphone with a smaller, cheaper operating system than an iPhone or Android phone.)</div>
 
 Plus, WhatsApp offered tons of languages since its founding, helping it to spread globally: “In the startup’s first year, they offered the service in German, Spanish, French, and Italian, among other languages,” Wired [explained](https://web.archive.org/web/20170826072315mp_/https://www.wired.com/2016/04/forget-apple-vs-fbi-whatsapp-just-switched-encryption-billion-people/) at the time.
 
@@ -99,7 +99,7 @@ Telegram officially became the most downloaded app in the world for January 2021
 But not everyone cares about security. People are turning 13 and getting new phones, and they’re installing the apps that their parents use. While Telegram was the most popular Android messaging app of 2021, WhatsApp regained first place in 2022, according to Meltwater's 2023 [Digital Report](https://datareportal.com/reports/digital-2023-global-overview-report):
 
 ![](/images/posts/popular_apps.png "popular apps")
-<center>Looks like 2021’s privacy changes are a distant memory, with WhatsApp back in the #1 spot on the "Favorite social media platforms" list.</center>
+<div class="image-caption">Looks like 2021’s privacy changes are a distant memory, with WhatsApp back in the #1 spot on the "Favorite social media platforms" list.</div>
 
 WhatsApp might very well keep its #1 spot for the foreseeable future (until TikTok adds better messaging, hah). But we saw something interesting happen in 2021: that WhatsApp sacrificed a significant corner of its market by revealing its lenient stance on privacy. To this day, Telegram is still the [most popular](https://www.similarweb.com/blog/research/market-research/worldwide-messaging-apps) messaging app in ten countries, including Cambodia and Iraq, the majority of which have authoritarian governments. So Telegram hasn't completely lost its market hold.
 

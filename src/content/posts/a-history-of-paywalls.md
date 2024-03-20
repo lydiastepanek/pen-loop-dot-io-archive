@@ -41,7 +41,7 @@ Finally, the moment of truth came: in July 2019, they started forcing non-logged
 Checkmate. By 2019, even I had to admit that I’d been beat. Grudgingly, I signed up for a digital subscription to the Times. And so did the rest of the world:
 
 ![](/images/posts/02.jpg "NYT")
-<center>2020 was a bad year for everyone except the New York Times.</center>
+<div class="image-caption">2020 was a bad year for everyone except the New York Times.</div>
 
 In the first half of 2020 alone, the Times added one million users. Apparently paywalls can result in a lot of money if people are stuck at home and the stock market is doing well, who knew?
 
@@ -63,12 +63,12 @@ In a nutshell: when you set up Wifi in your house, some guy from Verizon comes t
 Netflix has decided that no two IP addresses can be logged into the same account at the same time:
 
 ![](/images/posts/ip_address.png "IP address")
-<center>My artistic attempt at describing what a household with two IP addresses looks like.</center>
+<div class="image-caption">My artistic attempt at describing what a household with two IP addresses looks like.</div>
 
 Netflix tested this "household" definition in 2022 in South America, and the results were [promising](https://time.com/6223415/netflix-password-sharing-crackdown) enough that they decided to roll out the IP-based household solution in America in Q1 2023. Just last month, they added a footnote that explains “Only people who live with you may use your account” to the Netflix sign up page for users in the United States:
 
 ![](/images/posts/netflix_one_household.png "Netflix warning")
-<center>Ominous…</center>
+<div class="image-caption">Ominous…</div>
 
 ## Too lazy to fake my IP address
 Now, it should be stated that it’s possible to fake your IP – one popular option is to use a VPN, for example – so many people could use a VPN and pretend to be one household. But Netflix has started cracking down on VPNs, and I'm too lazy to play cat and mouse with Netflix, especially when their cheapest subscription is only $6.99/month.

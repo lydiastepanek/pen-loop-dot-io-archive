@@ -23,7 +23,7 @@ But ever since the early 2010s, when reCAPTCHA (and other innovations like rate 
 If you’ve ever spent time in Boulder, CO, with a dad who admires government agencies that set the time for the rest of the United States (just me?) then you should be familiar with the National Institute of Standards and Technology (NIST). The basis for NIST’s existence goes way back to 1781, when the Articles of Confederation determined that Congress had the power to determine standard weights and measurements. Since then, NIST has been responsible for setting measurements like the [exact](https://en.wikipedia.org/wiki/Standard_temperature_and_pressure) standard of temperature (0 °C = 32 °F).
 
 ![](/images/posts/NIST.jpg "NIST atomic clock")
-<center>Up until 2014, all the clocks in the United States synchronized their time to NIST’s atomic clock in Boulder.</center>
+<div class="image-caption">Up until 2014, all the clocks in the United States synchronized their time to NIST’s atomic clock in Boulder.</div>
 
 In addition to measurements, NIST is also in charge of password guidelines for all U.S. government agencies. (Yes, I also found it astonishing that a government agency established in the 1700s now decides IT practices for the entire country.) All organizations that work with the federal government are required to adhere to NIST's guidelines in order to be considered for government contracts. NIST's influence has spread into the private sector too, where its guidelines are considered the gold standard by most IT practitioners.
 
@@ -66,13 +66,13 @@ Reassuringly, NIST’s most useless password rules – like the 90-day reset rul
 On the other hand, guidelines that make intuitive sense, like MFA, which was first recommended by NIST in 2004, have stuck around for ages. Some types of MFA, like text-message codes, have turned out to be [susceptible](https://www.wsj.com/articles/you-need-two-factor-authentication-but-some-types-are-safer-than-others-11648930708) to various attacks like SIM swapping. But others, like MFA that relies on biometric data or physical security keys (both mentioned in NIST’s 2004 guidelines), have proven quite safe over time.
 
 ![](/images/posts/one_direction.png "one direction")
-<center>NIST rules requiring 90-day resets and complex characters: not cool anymore. One Direction: still cool.</center>
+<div class="image-caption">NIST rules requiring 90-day resets and complex characters: not cool anymore. One Direction: still cool.</div>
 
 ## Do companies keep up with these rule changes?
 NIST’s tendency to change rules over time introduces an obvious problem: the rest of the world has trouble keeping up. ADP, the global HR company that managed payroll for my former employer, made me reset my password TEN times in four years.
 
 ![](/images/posts/adp.png "password")
-<center>My password to this website is “f*%!_ADP”.</center>
+<div class="image-caption">My password to this website is “f*%!_ADP”.</div>
 
 So I asked my friend Reba, who works in IT for the government, why so many websites remain out of compliance with NIST guidelines. She explained that many government agencies – and non-government agencies – don't have the time or money to follow NIST guidelines. “It’s a matter of not having enough budget to rebuild an agency's entire authentication system,” she says.
 

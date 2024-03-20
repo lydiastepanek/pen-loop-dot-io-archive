@@ -38,7 +38,7 @@ You know what the average cybersecurity app looks like: dark gray background, li
 Instead of a design scheme that speaks to a precocious, terminally online 12 year old, I want cybersecurity products with pink logos. Or funny, approachable emojis. Or really anything that doesn’t revolve around making the user feel secure in their masculinity.
 
 ![](/images/posts/shodan.png "shodan")
-<center>This is the search results page of one of the most popular cybersecurity websites in the world, [shodan.io](https://www.shodan.io). Needlessly intimidating, right?</center>
+<div class="image-caption">This is the search results page of one of the most popular cybersecurity websites in the world, [shodan.io](https://www.shodan.io). Needlessly intimidating, right?</div>
 
 When a hack is worldwide news, it targets women more than 50% of the time (see: [Gamergate](https://en.wikipedia.org/wiki/Gamergate_(harassment_campaign)?#:~:text=Gamergate%20has%20been%20described%20as%20an%20expression%20of%20sexism%20and,threat%20to%20traditional%20video%20games), [Celebgate](https://en.wikipedia.org/wiki/2014_celebrity_nude_photo_leak), and even the [Sony Pictures Hack](https://en.wikipedia.org/w/index.php?title=2014_Sony_Pictures_hack), which was most famous for leaking all of Amy Pascal’s emails). Yes, famous men get hacked too, but it isn’t the rule. It’s women who tend to be victimized by rote, everyday hacking like revenge porn.
 
@@ -75,7 +75,7 @@ I made a friendly email address to which you can forward sketchy emails (for fre
 Read my recap [here](/launching-my-startup-incubator).
 
 ![](/images/posts/my_startup_incubator.png "my startup incubator")
-<center>This startup was an incubator for all of my nascent product ideas.</center>
+<div class="image-caption">This startup was an incubator for all of my nascent product ideas.</div>
 
 ## #3: Too Phishy
 Read my recap [here](/i-built-an-anti-phishing-app-heres-what-i-learned-and-why-i-hate-stripe).

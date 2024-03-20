@@ -20,7 +20,7 @@ I expected to build this project in two months. In the end, it took four months.
 Despite boasting 400 monthly active users in its first two months, my first project, Is This Phishy, saw its active user base drop down to one by its third month. (Hi dad!)
 
 ![](/images/posts/funeral.jpg "funeral")
-<center>Please bow your heads for a moment of silence.</center>
+<div class="image-caption">Please bow your heads for a moment of silence.</div>
 
 It turns out that recognizing phishing emails is really hard.
 
@@ -29,7 +29,7 @@ Too Phishy endeavors to be an improvement on Is This Phishy, using the lessons l
 For example, Is This Phishy told you that an attachment might be suspicious, but it didn’t show you that someone named John Delacroix last edited the attachment. Similarly, Is This Phishy told you that an email contained a rarely seen link, but it didn’t show you that the link was hosted in Korea.
 
 ![](/images/posts/sony.png "sony hack")
-<center>Check out my terrible attempts at writing funny marketing copy at toophishy.com/how-it-works.</center>
+<div class="image-caption">Check out my terrible attempts at writing funny marketing copy at toophishy.com/how-it-works.</div>
 
 In short: Is This Phishy showed you beige flags; Too Phishy shows you red flags.
 
@@ -61,10 +61,10 @@ Whenever I interview with a startup (for when I imminently run out of savings, o
 However, once you start building a website that uses Stripe payments, you quickly realize that Stripe’s docs are famously chaotic, a result of building lots of features over the years and not updating their docs accordingly. For example, it took me an entire week to turn my payments form (yes, one form) from the one shown below to a more modern design because Stripe hasn’t yet written documentation for their new checkout page React component:
 
 ![](/images/posts/checkout_before.png "checkout before")
-<center>Before</center>
+<div class="image-caption">Before</div>
 
 ![](/images/posts/checkout_after.png "checkout after")
-<center>One week and fourteen gray hairs later, tada!</center>  
+<div class="image-caption">One week and fourteen gray hairs later, tada!</div>  
 
 ## Google Marketplace's App Approval Process
 I knew that the app approval process for Apple can take months (although they claim it’s now down to a day). But I’d never developed a Google add-on before, so I was curious how long it would take to get my app reviewed and approved by Google.
@@ -79,7 +79,7 @@ At first, I had decided to price Too Phishy at a low price point in order to att
 > “The number one thing – just the theme and we see it everywhere – the number one theme with our companies have when they get really struggling is they are not charging enough for their product.”
 
 ![](/images/posts/raise_prices.png "raise prices")
-<center>I listened, Marc.</center>
+<div class="image-caption">I listened, Marc.</div>
 
 ## 🌟 Acknowledgements
 I’d like to thank Aixsha, my college suitemate, who was generous enough to share her enormous corpus of phishing emails with me (while she was under constant attack from some crazy people who hate WGA members), which I used as a basis as my phishing corpus for Too Phishy. Up until very recently, Aixsha was in the middle of experiencing constant phishing attacks while she was on strike. But don’t feel too bad for her – she’s getting vengeance on her attackers as we speak by writing a television pilot about it.
