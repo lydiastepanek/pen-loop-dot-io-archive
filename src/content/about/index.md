@@ -6,7 +6,7 @@ author_image: "/images/lydia.png"
 draft: false
   
 products:
-  title: "Projects"
+  title: "Products"
   items:
   - title: "Too Phishy"
     description: "A Gmail extension that shows you hidden information in the emails you receive, like which country they're sent from and who last edited the attachment files."
@@ -27,4 +27,4 @@ founder:
 
 ---
 
-Pen Loop is a software development lab based in New York that offers fractional CTO/engineering work on a contract basis to early-stage startups. We can help you solve your engineering problems now before you're ready to find a more full-time replacement.
+Pen Loop is a software development lab based in New York that helps companies build better products. We offer fractional engineers -- that is, senior engineers on a contract basis at a fraction of the price -- to take a product from MVP to production. We specialize in building sleek frontend UIs, optimizing backend database performance, and delivering great products on a quick timeline.
