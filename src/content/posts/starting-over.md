@@ -45,7 +45,7 @@ An object in motion stays in motion, which is to say, it’s sometimes easier to
 So instead of diving into my next app right away, I’ve decided to take a pause, write this blog post about what I learned, and start over.
 
 ## The elephant in the room: big data
-I mentioned this in my launch [post](/i-built-an-anti-phishing-app-heres-what-i-learned-and-why-i-hate-stripe) about Too Phishy, but there is a dearth of example phishing emails in the public domain. This makes it really, really hard to come up with correct algorithms, and to identify “bad actors” in real time. Without the ability to see the millions of phishing emails making their way across the internet and into Gmail’s inboxes, it’s hard to immediately flag bad actors. So in the end, I wonder if my biggest issue was not having enough email data to work with. This is the biggest lesson I take away from this experience.
+I mentioned this in my launch [post](/launching-too-phishy) about Too Phishy, but there is a dearth of example phishing emails in the public domain. This makes it really, really hard to come up with correct algorithms, and to identify “bad actors” in real time. Without the ability to see the millions of phishing emails making their way across the internet and into Gmail’s inboxes, it’s hard to immediately flag bad actors. So in the end, I wonder if my biggest issue was not having enough email data to work with. This is the biggest lesson I take away from this experience.
 
 ## Things I got right
 First, I’d like to reflect on what went well in the Too Phishy launch. I learned a ton.

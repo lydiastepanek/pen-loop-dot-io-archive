@@ -78,7 +78,7 @@ Read my recap [here](/launching-my-startup-incubator).
 <div class="image-caption">This startup was an incubator for all of my nascent product ideas.</div>
 
 ## #3: Too Phishy
-Read my recap [here](/i-built-an-anti-phishing-app-heres-what-i-learned-and-why-i-hate-stripe).
+Read my recap [here](/launching-too-phishy).
 
 Harnessing cutting-edge technology, Too Phishy performs real-time analysis of attachments and sender information so that your online security is never compromised. Check it out on [Product Hunt](https://www.producthunt.com/products/too-phishy-for-gmail).
 
