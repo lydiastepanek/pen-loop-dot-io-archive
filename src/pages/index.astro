@@ -9,7 +9,7 @@ import { sortByDate } from "@/lib/utils/sortFunctions";
 
 const entry = await getEntryBySlug("about", "index");
 const { Content } = await entry.render();
-const { title, description, meta_title, author_image, image, products, founder } = entry.data;
+const { title, description, meta_title, author_image, image, products, experiences } = entry.data;
 const posts = await getSinglePage("posts");
 const currentPosts = sortByDate(posts);
 ---
@@ -20,22 +20,22 @@ const currentPosts = sortByDate(posts);
   description={description}
   image={image}
 >
-  <section class="section">
+  <section class="section lg:mt-20">
     <div class="container">
       <div class="row md:gx-4">
-        <div class="sm:col-5 md:col-6">
-          {image && (
+        <div class="sm:col-5">
+          {author_image && (
             <div class="img-cover mb-8">
               <Image
-                src={image}
-                width={295}
-                height={395}
+                src={author_image}
+                width={195}
+                height={195}
                 alt={title}
                 class="rounded-lg w-full"
               />
             </div>)}
         </div>
-        <div class="sm:col-7 md:col-6">
+        <div class="sm:col-7">
           <h1 set:html={markdownify(title)} class="h3 mb-8" />
 
           <div class="content">
@@ -49,7 +49,31 @@ const currentPosts = sortByDate(posts);
     </div>
   </section>
 
+
   <section class="section">
+    <div class="container">
+      <h3 class="page-heading mb-20 text-center">{experiences.title}</h3>
+      <div class="mb-2 flex items-center justify-around row flex-wrap">
+        {experiences.items.map((item: any) => (
+          <div class="lg:col-4 md:col-6 mb-20">
+            <Image
+              class="group-hover:scale-[1.05] transition duration-300"
+              src={item.image}
+              alt={item.title}
+              width={200}
+              height={200}
+            />
+          </div>))}
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h3 class="page-heading mb-20">Recent Posts</h3>
+      <SimilarPosts posts={currentPosts.slice(0, 3)} />
+    </div>
+  </section>
+  <section class="section mb-20">
     <div class="container">
       <h3 class="page-heading mb-20">{products.title}</h3>
       <div class="row flex justify-around items-center gy-4 text-center">
@@ -72,39 +96,6 @@ const currentPosts = sortByDate(posts);
             </a>)}
           </div>))}
       </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <div class="row md:gx-4">
-        <div class="sm:col-5 md:col-8">
-          <div class="content">
-            <p>{founder.quotation}</p>
-            <p class="font-medium text-gray-300">{founder.attribution}</p>
-          </div>
-            <a href="/contact" class="btn btn-primary text-white py-2 mb-4"
-            >Get In Touch</a
-            >
-        </div>
-        <div class="sm:col-7 md:col-4">
-          {author_image && (
-            <div class="img-cover mb-8">
-              <Image
-                src={author_image}
-                width={195}
-                height={195}
-                alt={title}
-                class="rounded-lg w-full"
-              />
-            </div>)}
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section mb-20">
-    <div class="container">
-      <h3 class="page-heading mb-20">Recent Posts</h3>
-      <SimilarPosts posts={currentPosts.slice(0, 3)} />
     </div>
   </section>
 </Base>

@@ -1,9 +1,24 @@
 ---
-title: "Pen Loop"
+title: "Hi, I'm Lydia 👋"
 meta_title: "Pen Loop"
 image: "/images/statenferry.jpg"
 author_image: "/images/lydia.png"
 draft: false
+
+experiences:
+  title: "Previous experience"
+  items:
+    - title: "MongoDB"
+      image: "/images/mongodb2.png"
+
+    - title: "Codecademy"
+      image: "/images/codecademy.png"
+
+    - title: "Crowdtap"
+      image: "/images/crowdtap2.jpeg"
+
+    - title: "FTI Consulting"
+      image: "/images/fti.png"
   
 products:
   title: "Products"
@@ -19,12 +34,10 @@ products:
     link: "isthisphishy.io"
     url: "https://isthisphishy.io/"
     image: "/images/posts/is_this_phishy.png"
-    
-founder:
-  quotation: "“After building and launching multiple apps, I started Pen Loop to help companies build + design new features, like implementing better data architecture. My specialty is databases, DevOps, and building scalable systems that are meticulously documented, rigorously tested, and seamlessly integrated into a robust CI/CD pipeline. That way, when engineers join or leave your team, there is a sane codebase in place for them to hit the ground running.”"
-  attribution: "- Lydia Stepanek, Founder and Owner"
-  
 
 ---
 
-Pen Loop is a software development lab based in New York that helps companies build better products. We offer fractional engineers -- that is, senior engineers on a contract basis at a fraction of the price -- to take a product from MVP to production. We specialize in building sleek frontend UIs, optimizing backend database performance, and delivering great products on a quick timeline.
+I'm a freelance software developer based in New York. I work with clients to build sleek frontend UIs, optimize backend database performance, and deliver great products on a quick timeline. 
+
+I spent the past decade as a software and DevOps engineer working on data-related technologies at places like MongoDB and Codecademy. In my free time, I build apps and run a cybersecurity blog that has made the front page of Hacker News multiple times.
+
