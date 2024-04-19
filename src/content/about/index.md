@@ -24,13 +24,13 @@ products:
   title: "Products"
   items:
   - title: "Too Phishy"
-    description: "A Gmail extension that shows you hidden information in the emails you receive, like which country they're sent from and who last edited the attachment files."
+    description: "A Gmail extension that shows you which country your emails were sent from and who last edited the attachment files."
     link: "toophishy.com"
     url: "https://www.toophishy.com/"
     image: "/images/posts/irs.png"
       
   - title: "Is This Phishy"
-    description: "A friendly email address that you can forward sketchy emails to (for free), and you’ll get a response telling you whether the email is a phishing scam."
+    description: "Send your emails to this friendly email address and you’ll get a response telling you whether the email is a phishing scam."
     link: "isthisphishy.io"
     url: "https://isthisphishy.io/"
     image: "/images/posts/is_this_phishy.png"
