@@ -39,5 +39,5 @@ products:
 
 I'm a freelance software developer based in New York. I work with clients to build sleek frontend UIs, optimize backend database performance, and deliver great products on a quick timeline. 
 
-I spent the past decade as a software and DevOps engineer working on data-related technologies at places like MongoDB and Codecademy. In my free time, I build apps and run a cybersecurity blog that has made the front page of Hacker News multiple times.
+I spent the past decade as a software and DevOps engineer working on infrastructure scaling problems at places like MongoDB and Codecademy. In my free time, I build apps and run a cybersecurity blog that has made the front page of Hacker News multiple times.
 
