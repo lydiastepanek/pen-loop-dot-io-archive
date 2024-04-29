@@ -1,6 +1,6 @@
 ---
 title: Lydia Stepanek
-image: /images/authors/lydia.jpg
+image: /images/lydia.png
 description: ""
 social:
   linkedin: https://www.linkedin.com/in/lydiastepanek/
