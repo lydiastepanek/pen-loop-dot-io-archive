@@ -21,8 +21,14 @@ experiences:
       image: "/images/fti.png"
   
 products:
-  title: "Products"
+  title: "Projects"
   items:
+  - title: "Lunar Hike"
+    description: "My friends and I teamed up to build SaaS products together and turn them into successful and sustainable businesses."
+    link: "lunarhike.com"
+    url: "https://www.lunarhike.com/"
+    image: "/images/lunar_hike.png"
+
   - title: "Too Phishy"
     description: "A Gmail extension that shows you which country your emails were sent from and who last edited the attachment files."
     link: "toophishy.com"
