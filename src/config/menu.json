@@ -5,12 +5,12 @@
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "https://www.lydiaoncybersecurity.com/"
-    },
-    {
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "name": "Blog",
+      "url": "https://www.lydiaoncybersecurity.com/"
     }
   ],
   "footer": [
