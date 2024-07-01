@@ -1,6 +1,5 @@
-<h1 align="center">Pen Loop Dot IO</h1>
+# Pen Loop Dot IO
+This is the source code for penloop.io.
 
-
-<p align="center">
-    Site for Pen Loop, LLC.
-</p>
+## 🔧Installation
+This site was built using [Bookworm Light Astro](https://bookworm-light-astro.vercel.app/). See https://github.com/themefisher/bookworm-light-astro/ for installation instructions. 
