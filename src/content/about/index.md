@@ -19,7 +19,7 @@ experiences:
 
     - title: "FTI Consulting"
       image: "/images/fti.png"
-  
+
 products:
   title: "Projects"
   items:
@@ -34,7 +34,7 @@ products:
     link: "toophishy.com"
     url: "https://www.toophishy.com/"
     image: "/images/posts/irs.png"
-      
+
   - title: "Is This Phishy"
     description: "Send your emails to this friendly email address and you’ll get a response telling you whether the email is a phishing scam."
     link: "isthisphishy.io"
@@ -46,4 +46,3 @@ products:
 I'm a freelance software developer based in New York. I work with clients to improve their dev setup processes and implement database changes without breaking the developer experience.
 
 I spent the past decade as a software and DevOps engineer working on infrastructure scaling problems at places like MongoDB and Codecademy. In my free time, I build apps and run a cybersecurity blog that has made the front page of Hacker News multiple times.
-
