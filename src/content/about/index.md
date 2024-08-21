@@ -43,6 +43,6 @@ products:
 
 ---
 
-I'm a DevOps and Full Stack Consultant based in New York. I work with clients to improve their dev setup processes and implement database changes without breaking the developer experience.
+I’m a DevOps and Full Stack Consultant based in New York, specializing in improving development setup processes and implementing database changes without compromising the developer experience. With a decade of experience as a software and DevOps engineer at leading tech companies like MongoDB and Codecademy, I’ve honed my skills in solving complex infrastructure scaling problems.
 
-I spent the past decade as a software and DevOps engineer working on infrastructure scaling problems at places like MongoDB and Codecademy. In my free time, I build apps and run a cybersecurity blog that has made the front page of Hacker News multiple times.
+In my free time, I’m passionate about building apps and sharing my knowledge through a cybersecurity blog that has repeatedly made the front page of Hacker News. My hands-on experience in both large-scale environments and personal projects gives me a unique perspective on how to optimize development processes for maximum efficiency and effectiveness.
