@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Pen Loop",
+    "title": "Pen Loop Consulting",
     "base_url": "https://penloop.io",
     "base_path": "/",
     "trailing_slash": false,
@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_width": "50",
     "logo_height": "50",
-    "logo_text": "Pen Loop",
+    "logo_text": "Pen Loop Consulting",
     "source_code": "https://github.com/lydiastepanek/pen-loop-dot-io",
     "source_code_text": "Source"
   },
@@ -19,9 +19,9 @@
   },
 
   "metadata": {
-    "meta_author": "Pen Loop, LLC",
+    "meta_author": "Pen Loop Consulting",
     "meta_image": "/images/statenferry.jpg",
-    "meta_description": "Pen Loop, LLC is a software development lab based in New York that offers fractional CTO/engineering work on a contract basis to early-stage startups."
+    "meta_description": "Pen Loop Consulting is a software development lab based in New York that offers fractional CTO/engineering work on a contract basis to early-stage startups."
   },
 
   "params": {

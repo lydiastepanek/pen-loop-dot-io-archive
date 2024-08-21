@@ -7,5 +7,5 @@ social:
   github: https://github.com/lydiastepanek/
 ---
 
-Founder/Owner, Pen Loop
+Founder/Owner, Pen Loop Consulting
 

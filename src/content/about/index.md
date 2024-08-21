@@ -1,6 +1,6 @@
 ---
 title: "Hi, I'm Lydia 👋"
-meta_title: "Pen Loop"
+meta_title: "Pen Loop Consulting"
 image: "/images/statenferry.jpg"
 author_image: "/images/lydia.png"
 draft: false
@@ -43,6 +43,6 @@ products:
 
 ---
 
-I'm a freelance software developer based in New York. I work with clients to improve their dev setup processes and implement database changes without breaking the developer experience.
+I'm a DevOps and Full Stack Consultant based in New York. I work with clients to improve their dev setup processes and implement database changes without breaking the developer experience.
 
 I spent the past decade as a software and DevOps engineer working on infrastructure scaling problems at places like MongoDB and Codecademy. In my free time, I build apps and run a cybersecurity blog that has made the front page of Hacker News multiple times.
